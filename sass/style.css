@@ -258,72 +258,58 @@ a {
   letter-spacing: 1px;
 }
 
-.section-1-container-right-side {
-  background-image: url(../photo/promo_apple_watch_series_10_avail_lte__c70y29goir42_large.jpg);
+.section-1-intelligence,
+.section-1-ipad,
+.section-2-airpods-pro,
+.section-2-watch,
+.section-3-trade-in,
+.section-3-card {
   background-size: cover;
   background-position: center;
   height: 600px;
   margin-top: 10px;
-}
-
-.section-1-right-side-intro {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 30px;
-}
-
-.section-1-right-side-para-1 {
-  text-align: center;
-  font-size: 30px;
-  font-weight: 600;
-  margin-bottom: 5px;
-}
-
-.section-1-right-side-para-2 {
-  font-size: 17px;
-  word-spacing: 1px;
-  color: rgba(0, 0, 0, 0.7215686275);
-  font-weight: 400;
-}
-
-.section-1-right-side-para-3 {
-  font-size: 17px;
-  word-spacing: 1px;
-  color: rgba(0, 0, 0, 0.7215686275);
-  line-height: 5px;
-  font-weight: 400;
-}
-
-.section-1-container-link {
-  margin-top: 30px;
-}
-
-.section1-right-side-link1 {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 18px;
-  padding-left: 18px;
-  border: 2px solid #0071e3;
-  text-align: center;
-  border-radius: 50px;
-  color: white;
-  background-color: #0071e3;
-  font-size: 17px;
   letter-spacing: 1px;
 }
 
-.section1-right-side-link2 {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 18px;
-  padding-left: 18px;
-  border: 1px solid #0071e3;
-  text-align: center;
-  border-radius: 50px;
-  color: rgb(0, 102, 204);
-  font-size: 17px;
-  margin-left: 6px;
+.section-1-intelligence {
+  background-image: url(../photo/promo_apple_intelligence.jpg);
+}
+
+.section-1-ipad {
+  background-image: url(../photo/promo_ipad_family.png);
+}
+
+.section-2-airpods-pro {
+  background-image: url(../photo/promo_airpods_pro_2_avail__vkitqi3okwie_large.jpg);
+}
+
+.section-2-watch {
+  background-image: url(../photo/promo_apple_watch_series_10_avail_lte__c70y29goir42_large.jpg);
+}
+
+.section-3-trade-in {
+  background-image: url(../photo/promo_iphone_tradein__bugw15ka691e_medium_2x.jpg);
+}
+
+.section-3-card {
+  background-image: url(../photo/promo_apple_card__5cm7draujpey_large.jpg);
+}
+
+button {
+  border-radius: 20px;
+  padding: 5px 20px;
+}
+
+.section-2-left-intro,
+.section-1-left-intro {
+  margin-top: 400px;
+}
+
+.colorful {
+  background: linear-gradient(to right, rgb(0, 102, 255), rgb(206, 124, 223), rgb(255, 0, 76), rgb(255, 47, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .footer-section {

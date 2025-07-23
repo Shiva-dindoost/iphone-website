@@ -209,56 +209,71 @@ a {
     @include learnmorebuttun;
 }
 
+
 // -------------------------------section1---------------------------------------
-.section-1-container-right-side {
-    background-image: url(../photo/promo_apple_watch_series_10_avail_lte__c70y29goir42_large.jpg);
+.section-1-intelligence,
+.section-1-ipad,
+.section-2-airpods-pro,
+.section-2-watch,
+.section-3-trade-in ,
+.section-3-card
+
+ {
     background-size: cover;
     background-position: center;
     height: 600px;
     margin-top: 10px;
+    letter-spacing: 1px;
 }
 
-.section-1-right-side-intro {
-    @include introstyle;
+.section-1-intelligence {
+    background-image: url(../photo/promo_apple_intelligence.jpg);
+
 }
 
-.section-1-right-side-para-1 {
-    text-align: center;
-    font-size: 30px;
-    font-weight: 600;
-    margin-bottom: 5px;
-    // فاصله با خط پایین
+.section-1-ipad {
+    background-image: url(../photo/promo_ipad_family.png);
+
 }
 
-.section-1-right-side-para-2 {
-    font-size: 17px;
-    word-spacing: 1px;
-    color: #000000b8;
-    // text-align: center;
-    // line-height: 1.47059;
-    font-weight: 400;
+.section-2-airpods-pro {
+    background-image: url(../photo/promo_airpods_pro_2_avail__vkitqi3okwie_large.jpg);
+
 }
 
-.section-1-right-side-para-3 {
-    font-size: 17px;
-    word-spacing: 1px;
-    color: #000000b8;
-    line-height: 5px;
-    font-weight: 400;
+.section-2-watch {
+    background-image: url(../photo/promo_apple_watch_series_10_avail_lte__c70y29goir42_large.jpg);
+
 }
 
-.section-1-container-link {
-    margin-top: 30px;
-    // کل کانتینر بیاد پایین ب جای دونه ب دونه
+.section-3-trade-in {
+    background-image: url(../photo/promo_iphone_tradein__bugw15ka691e_medium_2x.jpg);
+    
 }
 
-.section1-right-side-link1 {
-    @include learnmorebuttun;
+.section-3-card {
+    background-image: url(../photo/promo_apple_card__5cm7draujpey_large.jpg);
+
 }
 
-.section1-right-side-link2 {
-    @include secendbuttun;
+button {
+    border-radius: 20px;
+    padding: 5px 20px;
 }
+
+.section-2-left-intro,
+.section-1-left-intro {
+    margin-top: 400px;
+
+}
+.colorful{
+    background: linear-gradient(to right, rgb(0, 102, 255), rgb(206, 124, 223), rgb(255, 0, 76), rgb(255, 47, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+}
+
 
 
 
