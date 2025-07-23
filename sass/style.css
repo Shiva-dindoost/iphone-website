@@ -317,6 +317,11 @@ button {
   background-clip: text;
 }
 
+.change-color-hover:hover {
+  background-color: #0177ec;
+  color: white;
+}
+
 .footer-section {
   background-color: rgb(245, 245, 247);
   font-size: 12px;
