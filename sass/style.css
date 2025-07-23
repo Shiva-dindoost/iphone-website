@@ -287,6 +287,11 @@ a {
   background-image: url(../photo/promo_apple_watch_series_10_avail_lte__c70y29goir42_large.jpg);
 }
 
+@media (max-width: 800px) {
+  .section-2-watch {
+    background-image: url(../photo/promo_apple_watch_series_10_avail_lte__c70y29goir42_medium.jpg);
+  }
+}
 .section-3-trade-in {
   background-image: url(../photo/promo_iphone_tradein__bugw15ka691e_medium_2x.jpg);
 }
