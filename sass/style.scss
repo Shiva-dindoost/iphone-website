@@ -421,9 +421,10 @@ button {
 
 
 // ---------------------------------------------footer---------------------------
+
 .footer-section {
     background-color: rgb(245, 245, 247);
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .footer-container {
@@ -440,6 +441,7 @@ button {
 
 .footer-ul-container {
     margin-top: 20px;
+    gap: 4px;
 }
 
 .footer-h3 {
@@ -480,11 +482,14 @@ button {
     cursor: pointer;
 }
 
-.footer-locale {
-    float: right;
-}
+// .footer-locale {
+//     float: right;
+// }
 
 .footer-locale:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+.accordion{
+    border-radius: none;
 }
