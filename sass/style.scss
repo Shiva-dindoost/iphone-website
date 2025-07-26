@@ -1,8 +1,7 @@
 * {
     margin: 0%;
     padding: 0%;
-  
-     font-family: 'Inter' ,sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 @import"vars.scss";
@@ -43,48 +42,89 @@ a {
 
 .header-1 {
 
-    // padding-bottom: 56.25%;
-    background-image: url(../photo/hero_iphone_family__fuz5j2v5xx6y_medium.jpg);
+
+    background-image: url(../photo/family_large.jpg);
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 700px;
 }
+
+@media (max-width:576px) {
+    .header-1 {
+        background-image: url(../photo/family_small.jpg);
+    }
+
+    #header-1-phara-1 {
+        font-size: 32px;
+    }
+
+    #header-1-phara-2 {
+        font-size: 20px;
+    }
+}
+
+// .header-1-intro {
+//     @include introstyle;
+// }
+
+// #header-1-phara-1 {
+// text-align: center;
+// font-size: 50px;
+// font-weight: 600;
+// margin-bottom: 10px;
+// فاصله خط پایین  با تییتر}
+
+
+
 
 .header-1-intro {
-    @include introstyle;
-}
-
-#header-1-phara-1 {
-    text-align: center;
-    font-size: 50px;
-    font-weight: 600;
-    margin-bottom: 10px;
-    // فاصله خط پایین  با تییتر
-
-
-}
-
-#header-1-phara-2 {
-    font-size: 30px;
-    word-spacing: -1px;
-
-    color: #000000b8;
-
+    @include introstylenew;
 }
 
 .header-1-link-1 {
-    @include learnmorebuttun;
+    @include learnmorebuttonnew;
     margin-right: 6px;
+
+    &:hover {
+        background-color: rgba(0, 113, 227, 0.8);
+    }
 }
 
 .header-1-link-2 {
-    @include secendbuttun;
+    @include secondbuttonnew;
+
+    &:hover {
+        background-color: rgb(0, 102, 204);
+        color: white;
+    }
 }
 
-.header-1-link-2:hover {
-    color: white;
-    background-color: rgb(0, 102, 204);
-}
+// #header-1-phara-2 {
+//     font-size: 30px;
+//     word-spacing: -1px;
+
+//     color: #000000b8;
+
+// }
+
+// .header-1-link-1 {
+//     @include learnmorebutton;
+//     margin-right: 6px;
+// }
+
+// .header-1-link-1:hover {
+//     background-color: rgba(0, 113, 227, 0.8);
+
+// }
+
+// .header-1-link-2 {
+//     @include secondbutton;
+// }
+
+// .header-1-link-2:hover {
+//     color: white;
+//     background-color: rgb(0, 102, 204);
+// }
 
 
 .header-1-rainbow-para {
@@ -94,12 +134,28 @@ a {
 
 // ---------------------------heADER2---------------------------
 .header-2 {
-    background-image: url(../photo/hero_macbook_air_avail__fpm99qgohx2e_medium.jpg);
+    background-image: url(../photo/makbook_large.jpg);
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 700px;
     width: 100%;
     margin-top: 10px;
+}
+
+@media (max-width:576px) {
+    .header-2 {
+        background-image: url(../photo/makbook_small.jpg);
+    }
+
+    .header-2-phara-1 {
+        font-size: 32px;
+    }
+
+    .header-2-phara-2,
+    .header-2-para-3 {
+        font-size: 20px;
+    }
+
 }
 
 .header-2-intro {
@@ -135,13 +191,18 @@ a {
 }
 
 .header-2-link-1 {
-    @include learnmorebuttun;
+    @include learnmorebutton;
     margin-right: 6px;
 
 }
 
+.header-2-link-1:hover {
+    background-color: rgba(0, 113, 227, 0.8);
+
+}
+
 .header-2-link-2 {
-    @include secendbuttun;
+    @include secondbutton;
 }
 
 .header-2-link-2:hover {
@@ -156,6 +217,7 @@ a {
     width: 300px;
     height: 350px;
     margin: auto;
+    margin-top: 50px
 }
 
 .header-2-rainbow-para {
@@ -164,12 +226,30 @@ a {
 
 // -------------------------------heder3--------------------------------
 .header-3 {
-    background-image: url(../photo/promo_iphone_tradein__bugw15ka691e_medium_2x.jpg);
+    background-image: url(../photo/iphon_large.jpg);
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 700px;
     width: 100%;
     margin-top: 10px;
+}
+
+@media (max-width:576px) {
+    .header-3 {
+        background-image: url(../photo/iphon_small.jpg);
+    }
+
+    .header-3-phara-1 {
+        font-size: 32px;
+    }
+
+    .header-3-phara-2,
+    .header-3-para-3 {
+        font-size: 20px;
+    }
+
+
+
 }
 
 .header-3-intro {
@@ -210,16 +290,18 @@ a {
     @include learnmorebuttun;
 }
 
+.header-3-link:hover {
+
+    background-color: rgba(0, 113, 227, 0.8);
+}
 
 // -------------------------------section1---------------------------------------
 .section-1-intelligence,
 .section-1-ipad,
 .section-2-airpods-pro,
 .section-2-watch,
-.section-3-trade-in ,
-.section-3-card
-
- {
+.section-3-trade-in,
+.section-3-card {
     background-size: cover;
     background-position: center;
     height: 600px;
@@ -246,15 +328,16 @@ a {
     background-image: url(../photo/promo_apple_watch_series_10_avail_lte__c70y29goir42_large.jpg);
 
 }
-@media (max-width:800px){
-    .section-2-watch{
+
+@media (max-width:800px) {
+    .section-2-watch {
         background-image: url(../photo/promo_apple_watch_series_10_avail_lte__c70y29goir42_medium.jpg);
     }
 }
 
 .section-3-trade-in {
     background-image: url(../photo/promo_iphone_tradein__bugw15ka691e_medium_2x.jpg);
-    
+
 }
 
 .section-3-card {
@@ -272,14 +355,16 @@ button {
     margin-top: 400px;
 
 }
-.colorful{
+
+.colorful {
     background: linear-gradient(to right, rgb(0, 102, 255), rgb(206, 124, 223), rgb(255, 0, 76), rgb(255, 47, 0));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    
+
 }
-.change-color-hover:hover{
+
+.change-color-hover:hover {
     background-color: #0177ec;
     color: white;
 }

@@ -1,4 +1,4 @@
-@mixin learnmorebuttun{
+@mixin learnmorebutton{
       padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 18px;
@@ -10,8 +10,10 @@
     background-color: #0071e3;
     font-size: 17px;
     letter-spacing: 1px;
+
 }
-@mixin secendbuttun{
+
+@mixin secondbutton{
       padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 18px;
@@ -40,4 +42,26 @@
     margin-top: 30px;
     // فاصله کل متن ها با بالاش
 
+}
+
+@mixin introstylenew {
+  text-align: center;
+  padding: 40px 20px;
+  
+}
+@mixin learnmorebuttonnew {
+  @extend .btn;
+  @extend .btn-primary;
+  padding: 10px 20px;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 8px;
+}
+@mixin secondbuttonnew {
+  @extend .btn;
+  @extend .btn-outline-secondary;
+  padding: 10px 20px;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 8px;
 }
